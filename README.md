@@ -75,7 +75,7 @@ By constructing a **dynamic knowledge graph with FAISS based RAG** (Retrieval-Au
 
 ## Mentors & Contributors 👥
 - **Mentors:** Param Thakkar, Pranav Janjani, Anish Singh 
-- **Contributors:** Ninad Shegokar, Khush Agrawal, Sujal Sakpal, Rohit Bhargav
+- **Contributors:** [Ninad Shegokar](https://github.com/NinadShegokar), [Khush Agrawal](https://github.com/Khushmagrawal), [Sujal Sakpal](https://github.com/sujal-sakpal) and [Rohit Bhargav](https://github.com/Rohitb502)
 
 ## Acknowledgements ❤️
 * Team Works-On-My-Machine
