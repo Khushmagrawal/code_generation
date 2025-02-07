@@ -1,9 +1,14 @@
 # Competitive Programming Code Generation 🚀
 
-## Overview
-This project introduces a robust, multi-agent system with Hybrid RAG approach designed to analyze and solve competitive programming (CP) problems while generating comprehensive and edge-case test cases. With a curated database of over **300+ competitive programming problems**, the framework captures detailed problem descriptions, constraints, examples, and solution strategies across various complexity levels, including brute force, intermediate, and optimal approaches.
 
-By constructing a dynamic knowledge graph with FAISS based RAG(Retrieval-Augmented Generation), the system retrieves and synthesizes problem insights to develop efficient solution pipelines. Through agent collaboration, it automates the problem-solving process from analysis to code generation.
+
+## Overview
+This project introduces a robust, **multi-agent system with Hybrid RAG** approach designed to analyze and solve competitive programming (CP) problems while generating comprehensive and edge-case test cases. With a curated database of over **300+ competitive programming problems**, the framework captures detailed problem descriptions, constraints, examples, and solution strategies across various complexity levels, including brute force, intermediate, and optimal approaches.
+
+By constructing a **dynamic knowledge graph with FAISS based RAG** (Retrieval-Augmented Generation), the system retrieves and synthesizes problem insights to develop efficient solution pipelines. Through agent collaboration, it automates the problem-solving process from analysis to code generation.
+
+![UI Screenshot](images/ui_screenshot.jpeg)
+
 
 ## System Architecture 🧩
 ### Problem Database
@@ -44,6 +49,22 @@ By constructing a dynamic knowledge graph with FAISS based RAG(Retrieval-Augment
 - **Database and Knowledge Graph:** Neo4j
 - **Retrieval and Processing:** LangChain, FAISS
 - **Frontend and Backend:** FastAPI, HTML, CSS
+
+## Repo Structure
+
+-  `backend/`   
+    -  `agents.py` - Implements the **Knowlege Graph and FAISS based RAG approach** with agent definitions.  
+    -  `main.py` - Main backend script handling API requests and execution.  
+
+-  `frontend/` 
+    -  `index.html` - Main HTML structure for the web interface.  
+    -  `script.js` - JavaScript logic for interactivity.  
+    -  `styles.css` - Styling for the frontend.  
+
+-  `requirements.txt` - Lists dependencies required for the backend.  
+
+
+  
 
 ## Future Scope 🌟
 - **Integrated Compiler:** Build a compiler linked with a debugger cycle to generate the perfect code.
